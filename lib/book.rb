@@ -12,7 +12,8 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 
-  def track_genres
+  def genre=(genre)
+    @genre=genre
 
   end
 end
